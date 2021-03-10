@@ -3,18 +3,19 @@
 Opinionated starter template for libraries in the [fp-ts](https://github.com/gcanti/fp-ts) eco system.
 
 <!-- AUTO-GENERATED-CONTENT:START (TOC) -->
+
 - [Docs](#docs)
 - [Features](#features)
 - [Planned](#planned)
 - [Recepies](#recepies)
-  * [Getting started](#getting-started)
-  * [Build distribution files](#build-distribution-files)
-  * [Run test suite](#run-test-suite)
-  * [Generate Docs](#generate-docs)
-  * [Enhance README with auto generations](#enhance-readme-with-auto-generations)
-  * [Make docs available online via GitHub pages](#make-docs-available-online-via-github-pages)
-  * [Publish to NPM](#publish-to-npm)
-<!-- AUTO-GENERATED-CONTENT:END -->
+  - [Getting started](#getting-started)
+  - [Build distribution files](#build-distribution-files)
+  - [Run test suite](#run-test-suite)
+  - [Generate Docs](#generate-docs)
+  - [Enhance README with auto generations](#enhance-readme-with-auto-generations)
+  - [Make docs available online via GitHub pages](#make-docs-available-online-via-github-pages)
+  - [Publish to NPM](#publish-to-npm)
+  <!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Docs
 
@@ -55,6 +56,7 @@ Opinionated starter template for libraries in the [fp-ts](https://github.com/gca
 git clone https://github.com/no-day/fp-ts-library-template
 mv fp-ts-library-template your-lib-name
 cd your-lib-name
+yarn install
 ```
 
 Replace `fp-ts-library-template` with `your-lib-name` in those files:
