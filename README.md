@@ -3,17 +3,24 @@
 Opinionated starter template for libraries in the [fp-ts](https://github.com/gcanti/fp-ts) eco system.
 
 <!-- AUTO-GENERATED-CONTENT:START (TOC) -->
-
 - [Docs](#docs)
 - [Features](#features)
 - [Planned](#planned)
+- [Recepies](#recepies)
+  * [Getting started](#getting-started)
+  * [Build distribution files](#build-distribution-files)
+  * [Run test suite](#run-test-suite)
+  * [Generate Docs](#generate-docs)
+  * [Enhance README with auto generations](#enhance-readme-with-auto-generations)
+  * [Make docs available online via GitHub pages](#make-docs-available-online-via-github-pages)
+  * [Publish to NPM](#publish-to-npm)
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-# Docs
+## Docs
 
 [API Docs](https://no-day.github.io/fp-ts-library-template)
 
-# Features
+## Features
 
 - Testing
 
@@ -35,14 +42,14 @@ Opinionated starter template for libraries in the [fp-ts](https://github.com/gca
   - generate docs and deploy to GitHub pages.
   - publish to NPM on release
 
-# Planned
+## Planned
 
 - Expose multiple modules
 - Use markdown-magic to insert code from the examples folder to the README
 
-# Recepies
+## Recepies
 
-## Getting started
+### Getting started
 
 ```bash
 git clone https://github.com/no-day/fp-ts-library-template
@@ -55,37 +62,37 @@ Replace `fp-ts-library-template` with `your-lib-name` in those files:
 - `src/index.ts`
 - `package.json`
 
-## Build distribution files
+### Build distribution files
 
 ```bash
 yarn build
 ```
 
-## Run test suite
+### Run test suite
 
 ```bash
 yarn test
 ```
 
-## Generate Docs
+### Generate Docs
 
 ```bash
 yarn docs
 ```
 
-## Enhance README with auto generations
+### Enhance README with auto generations
 
 ```bash
 yarn md-magic
 ```
 
-## Make docs available online via GitHub pages
+### Make docs available online via GitHub pages
 
 - Push to your remote repo at GitHub (triggers CI)
 - In the GitHub UI of your repo, go to "Settings" > "GitHub Pages"
 - Select `gh-pages` branch as source, keep the "root" directory and "Save"
 
-## Publish to NPM
+### Publish to NPM
 
 Only once:
 
