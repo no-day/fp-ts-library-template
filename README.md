@@ -2,6 +2,16 @@
 
 Opinionated starter template for libraries in the [fp-ts](https://github.com/gcanti/fp-ts) eco system.
 
+<!-- AUTO-GENERATED-CONTENT:START (TOC) -->
+- [Docs](#docs)
+- [Features](#features)
+- [Planned](#planned)
+<!-- AUTO-GENERATED-CONTENT:END -->
+
+# Docs
+
+[API Docs](https://no-day.github.io/fp-ts-library-template)
+
 # Features
 
 - Testing
@@ -14,8 +24,10 @@ Opinionated starter template for libraries in the [fp-ts](https://github.com/gca
   - JS Doc formatting via [prettier-plugin-jsdoc](https://github.com/hosseinmd/prettier-plugin-jsdoc)
   - Table of Content generation via [Markdown magic](https://github.com/DavidWells/markdown-magic)
 
-- CI
-  - GitHub Actions integration (build and publish to NPM)
+- CI via GitHub Actions
+  - build & test
+  - generate docs and deploy to GitHub pages.
+  - publish to NPM on release
 
 # Planned
 
