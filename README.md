@@ -54,7 +54,7 @@ Starter template for libraries in the [fp-ts](https://github.com/gcanti/fp-ts) e
 
 ### Getting started
 
-```bash
+```shell
 git clone https://github.com/no-day/fp-ts-library-template
 mv fp-ts-library-template your-lib-name
 cd your-lib-name
@@ -68,31 +68,35 @@ Replace `fp-ts-library-template` with `your-lib-name` in those files:
 
 ### Build distribution files
 
-```bash
+```shell
 yarn build
 ```
 
 ### Run test suite
 
-```bash
+```shell
 yarn test
 ```
 
 ### Generate Docs
 
-```bash
+```shell
 yarn docs
 ```
 
 ### Preview Docs
 
 You need to install [Jekyll](https://jekyllrb.com/) on your system.
-Then run `yarn serve`.
+Then run
+
+```shell
+yarn serve
+```
 
 ### Enhance README with auto generations
 
-```bash
-yarn md-magic
+```shell
+yarn md
 ```
 
 ### Make docs available online via GitHub pages
