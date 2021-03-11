@@ -1,6 +1,6 @@
 # fp-ts-library-template
 
-Opinionated starter template for libraries in the [fp-ts](https://github.com/gcanti/fp-ts) eco system.
+Starter template for libraries in the [fp-ts](https://github.com/gcanti/fp-ts) ecosystem.
 
 <!-- AUTO-GENERATED-CONTENT:START (TOC) -->
 
@@ -30,6 +30,7 @@ Opinionated starter template for libraries in the [fp-ts](https://github.com/gca
 
 - Documentation
 
+  - API generation via [docs-ts](https://github.com/gcanti/docs-ts)
   - JS Doc formatting via [prettier-plugin-jsdoc](https://github.com/hosseinmd/prettier-plugin-jsdoc)
   - Table of Content generation via [Markdown magic](https://github.com/DavidWells/markdown-magic)
 
@@ -81,6 +82,8 @@ yarn test
 ```bash
 yarn docs
 ```
+
+To preview them you need to install [Jekyll](https://jekyllrb.com/) on your system, then run it inside the `docs` folder.
 
 ### Enhance README with auto generations
 
