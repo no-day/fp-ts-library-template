@@ -25,6 +25,7 @@
     "build": "tsc",
     "prepublish": "yarn build",
     "docs": "yarn docs-ts",
-    "md-magic": "yarn markdown --config markdown.config.js"
+    "md-magic": "yarn markdown --config markdown.config.js",
+    "serve": "bundle exec jekyll serve -s docs -d docs/_site"
   }
 }

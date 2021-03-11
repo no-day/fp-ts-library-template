@@ -12,6 +12,7 @@ Starter template for libraries in the [fp-ts](https://github.com/gcanti/fp-ts) e
   - [Build distribution files](#build-distribution-files)
   - [Run test suite](#run-test-suite)
   - [Generate Docs](#generate-docs)
+  - [Preview Docs](#preview-docs)
   - [Enhance README with auto generations](#enhance-readme-with-auto-generations)
   - [Make docs available online via GitHub pages](#make-docs-available-online-via-github-pages)
   - [Publish to NPM](#publish-to-npm)
@@ -83,7 +84,10 @@ yarn test
 yarn docs
 ```
 
-To preview them you need to install [Jekyll](https://jekyllrb.com/) on your system, then run it inside the `docs` folder.
+### Preview Docs
+
+You need to install [Jekyll](https://jekyllrb.com/) on your system.
+Then run `yarn serve`.
 
 ### Enhance README with auto generations
 
