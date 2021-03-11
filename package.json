@@ -26,6 +26,6 @@
     "prepublish": "yarn build",
     "docs": "yarn docs-ts",
     "md": "yarn markdown --config markdown.config.js",
-    "serve": "bundle exec jekyll serve -s docs -d docs/_site"
+    "start": "cd docs; bundle exec jekyll serve --livereload"
   }
 }
