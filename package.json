@@ -7,8 +7,7 @@
   "peerDependencies": {
     "fp-ts": "^2.9.5"
   },
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "@types/jest": "^26.0.20",
     "docs-ts": "^0.6.5",
     "fast-check": "^2.13.0",
