@@ -49,6 +49,8 @@ Starter template for libraries in the [fp-ts](https://github.com/gcanti/fp-ts) e
 
 - Expose multiple modules
 - Use markdown-magic to insert code from the examples folder to the README
+- Add vscode snippets for imports
+- Add vscode tasks for watch scripts
 
 ## Recepies
 

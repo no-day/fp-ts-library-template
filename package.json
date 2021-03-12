@@ -22,9 +22,12 @@
   },
   "scripts": {
     "test": "yarn jest",
-    "build": "tsc",
+    "test:watch": "yarn jest --watch",
+    "build": "yarn tsc",
+    "build:watch": "yarn tsc --watch",
     "prepublish": "yarn build",
     "docs": "yarn docs-ts",
+    "docs:watch": "while inotifywait -e close_write src; do yarn docs; done",
     "md": "yarn markdown --config markdown.config.js",
     "start": "cd docs; bundle exec jekyll serve --livereload"
   }
