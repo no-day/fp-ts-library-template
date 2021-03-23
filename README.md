@@ -3,20 +3,24 @@
 Starter template for libraries in the [fp-ts](https://github.com/gcanti/fp-ts) ecosystem.
 
 <!-- AUTO-GENERATED-CONTENT:START (TOC) -->
-
 - [Docs](#docs)
 - [Features](#features)
+  * [Testing](#testing)
+  * [Documentation](#documentation)
+  * [Distribution](#distribution)
+  * [CI](#ci)
+  * [Dev tasks](#dev-tasks)
 - [Planned](#planned)
 - [Recepies](#recepies)
-  - [Getting started](#getting-started)
-  - [Build distribution files](#build-distribution-files)
-  - [Run test suite](#run-test-suite)
-  - [Generate Docs](#generate-docs)
-  - [Preview Docs](#preview-docs)
-  - [Enhance README with auto generations](#enhance-readme-with-auto-generations)
-  - [Make docs available online via GitHub pages](#make-docs-available-online-via-github-pages)
-  - [Publish to NPM](#publish-to-npm)
-  <!-- AUTO-GENERATED-CONTENT:END -->
+  * [Getting started](#getting-started)
+  * [Build distribution files](#build-distribution-files)
+  * [Run test suite](#run-test-suite)
+  * [Generate Docs](#generate-docs)
+  * [Preview Docs](#preview-docs)
+  * [Enhance README with auto generations](#enhance-readme-with-auto-generations)
+  * [Make docs available online via GitHub pages](#make-docs-available-online-via-github-pages)
+  * [Publish to NPM](#publish-to-npm)
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Docs
 
@@ -24,33 +28,40 @@ Starter template for libraries in the [fp-ts](https://github.com/gcanti/fp-ts) e
 
 ## Features
 
-- Testing
+### Testing
 
-  - Jest tests via [ts-test](https://github.com/kulshekhar/ts-jest)
-  - Property based testing via [Fast check](https://github.com/dubzzz/fast-check)
+- Jest tests via [ts-jest](https://github.com/kulshekhar/ts-jest)
+- Property based testing via [Fast check](https://github.com/dubzzz/fast-check)
 
-- Documentation
+### Documentation
 
-  - API generation via [docs-ts](https://github.com/gcanti/docs-ts)
-  - JS Doc formatting via [prettier-plugin-jsdoc](https://github.com/hosseinmd/prettier-plugin-jsdoc)
-  - Table of Content generation via [Markdown magic](https://github.com/DavidWells/markdown-magic)
+- API generation via [docs-ts](https://github.com/gcanti/docs-ts)
+- JS Doc formatting via [prettier-plugin-jsdoc](https://github.com/hosseinmd/prettier-plugin-jsdoc)
+- Table of Content generation via [Markdown magic](https://github.com/DavidWells/markdown-magic)
 
-- Distribution
+### Distribution
 
-  - `.d.ts` files
-  - JavaScript files
+- `.d.ts` files
+- JavaScript files
+
+### CI
 
 - CI via GitHub Actions
-  - build & test
-  - generate docs and deploy to GitHub pages.
-  - publish to NPM on release
+- Build & test
+- Generate docs and deploy to GitHub pages.
+- Publish to NPM on release
+
+### Dev tasks
+
+- All task scripts postfixed with `:watch` run as [vscode tasks](https://code.visualstudio.com/docs/editor/tasks)
+- Note: You need to `Ctrl+shift+P` and `Tasks: Manage Automatic Tasks in Folder` and choose "Allow Automatic Tasks in folder"
 
 ## Planned
 
 - Expose multiple modules
 - Use markdown-magic to insert code from the examples folder to the README
 - Add vscode snippets for imports
-- Add vscode tasks for watch scripts
+- A spell checker
 
 ## Recepies
 
@@ -92,8 +103,10 @@ You need to install [Jekyll](https://jekyllrb.com/) on your system.
 Then run
 
 ```shell
-yarn serve
+yarn docs-preview
 ```
+
+They'll be served at port `4000`
 
 ### Enhance README with auto generations
 

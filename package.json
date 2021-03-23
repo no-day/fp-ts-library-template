@@ -29,6 +29,8 @@
     "docs": "yarn docs-ts",
     "docs:watch": "while inotifywait -e close_write src; do yarn docs; done",
     "md": "yarn markdown --config markdown.config.js",
-    "start": "cd docs; bundle exec jekyll serve --livereload"
+    "md:watch": "while inotifywait -e close_write README.md; do yarn md; done",
+    "docs-preview:watch": "cd docs; bundle exec jekyll serve --livereload",
+    "docs-preview": "cd docs; bundle exec jekyll serve"
   }
 }
